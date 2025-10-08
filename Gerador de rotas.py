@@ -13,14 +13,13 @@ import win32com.client as win32
 from pathlib import Path
 import os
 from openpyxl.styles import Border, Side, PatternFill, Font, GradientFill, Alignment
-import funcoes as f # Assumido que funcoes.py não contém credenciais hardcoded
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import folium
 from folium.plugins import MarkerCluster
 from geopy.geocoders import Nominatim
 import webbrowser
-import config # Importa o arquivo de configurações sensíveis (NÃO ENVIAR AO GIT!)
+# import config # Importa o arquivo de configuraçoes
 
 
 # Caminho universal (Anonimizado e seguro)
